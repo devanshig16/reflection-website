@@ -39,7 +39,7 @@ export default function Home() {
             onClick={() => router.push("/about-me")}
             className="font-mono text-lg tracking-wider px-8 py-3 rounded-xl border-2 shadow-lg
                     bg-[#ffce00] text-black border-[#ffce00]
-                    hover:bg-black hover:text-[#ffce00] hover:border-[#ffce00]
+                    hover:bg-[#f1ae98] hover:text-black hover:border-[#ffce00]
                     transition-transform duration-300 ease-in-out hover:scale-105"
         >
             About Me
@@ -50,7 +50,7 @@ export default function Home() {
             onClick={() => router.push("/ai-reflections")}
             className="font-mono text-lg tracking-wider px-8 py-3 rounded-xl border-2 shadow-lg
                     bg-[#ffce00] text-black border-[#ffce00]
-                    hover:bg-black hover:text-[#ffce00] hover:border-[#ffce00]
+                    hover:bg-[#f1ae98] hover:text-black hover:border-[#ffce00]
                     transition-transform duration-300 ease-in-out hover:scale-105"
         >
             Reflections

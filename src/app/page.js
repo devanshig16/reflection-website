@@ -14,7 +14,7 @@ export default function Home() {
         alt="Background"
         fill
         priority
-        className="object-cover z-[-2]"
+        className="object-cover "
       />
 
       {/* ✅ Welcome Text as Separate Image */}

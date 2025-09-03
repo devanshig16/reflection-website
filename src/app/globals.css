@@ -18,15 +18,4 @@ body {
   }
 }
 
-.about-me-bg {
-  background: linear-gradient(
-    270deg,
-    #7979e2,
-    #f6d1f1,
-    #a419b8,
-    #f6d1f1,
-    #e67b92
-  );
-  background-size: 1000% 1000%;
-  animation: gradientFlow 30s ease infinite;
-}
+

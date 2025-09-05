@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import WeekCard from "@/components/WeekCard";
+import Link from "next/link";
 
 const reflections = [
   {
@@ -16,10 +17,18 @@ const reflections = [
   {
     week: 2,
     data: {
-      learning: 'See next week!',
-      connection: 'See next week!',
-      challenges: 'See next week',
-      aiTool: "See next week",
+      learning: 'This week, we discussed the potential of AI for good versus AI used with no specific goal. I explored new AI tools designed for students, learning how they can enhance creativity and productivity in academic settings.',
+      connection: (
+        <>
+          I experimented with HeyGen to create a new icon of me waving for my{" "}
+          <Link href="/about-me" className="text-blue-600 underline hover:text-blue-800">
+            About Me
+          </Link>{" "}
+          section. It was exciting to see AI bring a personal touch to my projects while keeping it fun and interactive.
+        </>
+      ),
+      challenges: 'It was sometimes hard to differentiate between AI tools that genuinely help me versus those that are just entertaining. I had to focus on purpose and usability while experimenting.',
+      aiTool: "ChatGPT (idea exploration & discussion prep), HeyGen (creating personalized visuals)",
     },
   },
   // Add more weeks here...

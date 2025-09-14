@@ -31,6 +31,20 @@ const reflections = [
       aiTool: "ChatGPT (idea exploration & discussion prep), HeyGen (creating personalized visuals)",
     },
   },
+  {
+    week: 3,
+    data: {
+      learning: "This week, I used AI to create detailed international student personas and simulate interviews to test my 'Bureaucracy Buddy' app idea. I learned how AI can help me anticipate different users’ pain points and refine a solution before actual user testing.",
+      connection: (
+        <>
+          I explored how each persona—like first-year undergrads, grad students, exchange students, and student leaders—interacts differently with bureaucratic tasks. Using AI helped me understand which app features would matter most to each group and how I could personalize guidance. It felt like getting mini focus groups instantly.
+        </>
+      ),
+      challenges: "It was tricky to design questions that would elicit meaningful responses from each persona and to balance between too generic versus too specific prompts. Also, interpreting AI feedback required me to critically think about what’s realistic versus idealized.",
+      aiTool: "ChatGPT for persona generation and simulated interviews; Claude 3 for additional perspective and alternative persona scenarios.",
+    },
+  }
+  
   // Add more weeks here...
 ];
 

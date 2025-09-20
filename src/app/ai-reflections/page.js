@@ -43,10 +43,23 @@ const reflections = [
       challenges: "It was tricky to design questions that would elicit meaningful responses from each persona and to balance between too generic versus too specific prompts. Also, interpreting AI feedback required me to critically think about what’s realistic versus idealized.",
       aiTool: "ChatGPT for persona generation and simulated interviews; Claude 3 for additional perspective and alternative persona scenarios.",
     },
-  }
-  
-  // Add more weeks here...
+  },
+  {
+    week: 4,
+    data: {
+      learning: "This week, I built my Bureaucracy Buddy prototype using multiple AI platforms. I learned how to combine Bolt.new for frontend development, ChatGPT’s API for a contextual chatbot, and Gradio for document upload demos. Working through the project helped me understand the strengths and limitations of each platform, and how to leverage them together to solve a real-world problem. I also learned the importance of planning user flows and integrating features conceptually, even when full technical integration isn’t possible within a short timeframe. Testing and iterating on the prototype showed me how small changes—like clarifying instructions in the chatbot or improving the document upload interface—can greatly improve usability.",
+      connection: (
+        <>
+          As an international student myself, I can see how the features I built could
+          directly help new students navigating banking, visas, and healthcare. Designing the app allowed me to apply concepts from class while thinking practically about user experience. It was rewarding to simulate how someone would actually use the app, seeing how AI could make complex bureaucratic processes simpler and more approachable. It also made me reflect on my own experiences as a student and how tools like this could have helped me earlier.
+        </>
+      ),
+      challenges: "The hardest part was figuring out how to connect different AI platforms conceptually, since not all of them integrate seamlessly. I also ran into technical issues, like debugging API calls for the chatbot and ensuring Gradio demos worked smoothly. Balancing design, functionality, and AI capabilities took careful iteration. I learned to prioritize features and focus on what would be most valuable to the user while maintaining a clean and responsive interface.",
+      aiTool: "Bolt.new for web app development and layout, OpenAI GPT API for chatbot assistant with contextual guidance, Gradio (via Google Colab) for document upload demos, and ChatGPT for prompt help and problem-solving during development.",
+    },
+  },
 ];
+
 
 export default function AIReflections() {
   const router = useRouter();

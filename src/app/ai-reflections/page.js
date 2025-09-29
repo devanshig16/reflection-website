@@ -58,6 +58,20 @@ const reflections = [
       aiTool: "Bolt.new for web app development and layout, OpenAI GPT API for chatbot assistant with contextual guidance, Gradio (via Google Colab) for document upload demos, and ChatGPT for prompt help and problem-solving during development.",
     },
   },
+  {
+    week: 5,
+    data: {
+      learning: "This week, I conducted 2-3 customer interviews to validate the core assumptions of my AI solution concept. I learned how to craft effective questions to understand user problems, test solution desirability, and uncover current behaviors. Through these interviews, I realized the importance of listening more than talking, asking follow-up questions, and capturing exact user language to better align the solution with real needs. The process taught me how to gather actionable insights that directly inform product design and value proposition refinement.",
+      connection: (
+        <>
+          As an international student myself, I could see how these interviews helped me understand the perspectives and challenges of potential users. Engaging with real people allowed me to connect classroom concepts with practical application. It was rewarding to see how feedback could shape features, messaging, and usability, reflecting the lived experiences of users and making the solution more relevant and impactful.
+        </>
+      ),
+      challenges: "The hardest part was recruiting appropriate participants and ensuring the interviews stayed focused while allowing participants to share detailed experiences. I also struggled with summarizing insights objectively without letting my own assumptions influence the interpretation. Synthesizing feedback into clear patterns and actionable updates required careful attention and iteration.",
+      aiTool: "Not applicable this week, as the focus was on human-centered interviews and analysis rather than AI platform development. However, I used standard tools for documentation, like Google Docs and spreadsheets, to organize responses and analyze patterns.",
+    },
+  }
+  
 ];
 
 

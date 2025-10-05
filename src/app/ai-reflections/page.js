@@ -70,7 +70,21 @@ const reflections = [
       challenges: "The hardest part was recruiting appropriate participants and ensuring the interviews stayed focused while allowing participants to share detailed experiences. I also struggled with summarizing insights objectively without letting my own assumptions influence the interpretation. Synthesizing feedback into clear patterns and actionable updates required careful attention and iteration.",
       aiTool: "Not applicable this week, as the focus was on human-centered interviews and analysis rather than AI platform development. However, I used standard tools for documentation, like Google Docs and spreadsheets, to organize responses and analyze patterns.",
     },
+  },
+  {
+    week: 6,
+    data: {
+      learning: "This week I turned my interview insights into a prototype and storyboard. Using Gemini and Bolt, I made wireframes and interactive screens and saw how small features like checklists and reminders really help users.",
+      connection: (
+        <>
+          As an international student, I could relate to the persona. Designing the prototype made me think about what I’d actually want—clarity, guidance, and privacy—while AI helped speed up the visuals.
+        </>
+      ),
+      challenges: "Balancing feedback with simplicity was tricky. Participants suggested a Help/FAQ and clearer deadlines, and I had to include these without cluttering the interface.",
+      aiTool: "I used Gemini and Bolt for wireframes and clickable prototypes, testing a few prompt variations and picking the best elements for the final design."
+    }
   }
+  
   
 ];
 

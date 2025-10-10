@@ -83,7 +83,21 @@ const reflections = [
       challenges: "Balancing feedback with simplicity was tricky. Participants suggested a Help/FAQ and clearer deadlines, and I had to include these without cluttering the interface.",
       aiTool: "I used Gemini and Bolt for wireframes and clickable prototypes, testing a few prompt variations and picking the best elements for the final design."
     }
+  },
+  {
+    week: 7,
+    data: {
+      learning: "This week I worked on my Bureaucracy Buddy prototype, refining the flow and simplifying how users get AI help with confusing forms. I learned how much clarity and tone matter in building user trust.",
+      connection: (
+        <>
+          I’ve dealt with similar paperwork issues, so I really connected with the user pain points. Designing this made me think about how to make something that feels friendly and helpful.
+        </>
+      ),
+      challenges: "It was hard to keep things simple without losing important details. I had to adjust the layout and prompts a few times to get it right.",
+      aiTool: "I used Gemini to improve the chatbot prompts and Bolt to tweak the prototype screens."
+    }
   }
+  
   
   
 ];

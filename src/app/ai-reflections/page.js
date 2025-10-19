@@ -110,7 +110,6 @@ const reflections = [
         aiTool: "I used Gemini to visualize the chatbot interface and generate tone variations, and Bolt.new to rapidly prototype and refine the UI based on feedback."
       }
     }
-  }
   
   
   

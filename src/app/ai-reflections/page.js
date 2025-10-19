@@ -96,6 +96,20 @@ const reflections = [
       challenges: "It was hard to keep things simple without losing important details. I had to adjust the layout and prompts a few times to get it right.",
       aiTool: "I used Gemini to improve the chatbot prompts and Bolt to tweak the prototype screens."
     }
+  },
+    {
+      week: 8,
+      data: {
+        learning: "This week I focused on building and iterating the Bureaucracy Buddy prototype, especially refining the chatbot flow and making the checklist/reminder system more intuitive. I learned how vital user empathy and tone are when designing AI-powered tools that students can actually trust and rely on.",
+        connection: (
+          <>
+            As an out-of-state student myself, I’ve felt that same sense of confusion trying to navigate forms, deadlines, and campus systems. Working on this project made me realize how design and AI can combine to ease that stress — turning a frustrating process into something clear and supportive.
+          </>
+        ),
+        challenges: "Balancing personalization with simplicity was tough — I wanted the chatbot to sound human but still stay accurate and structured. Getting the prompts and layout to feel natural took multiple iterations.",
+        aiTool: "I used Gemini to visualize the chatbot interface and generate tone variations, and Bolt.new to rapidly prototype and refine the UI based on feedback."
+      }
+    }
   }
   
   

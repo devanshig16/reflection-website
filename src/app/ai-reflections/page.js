@@ -97,8 +97,8 @@ const reflections = [
       aiTool: "I used Gemini to improve the chatbot prompts and Bolt to tweak the prototype screens."
     }
   },
-    {
-      week: 8,
+  {
+    week: 8,
       data: {
         learning: "This week I focused on building and iterating the Bureaucracy Buddy prototype, especially refining the chatbot flow and making the checklist/reminder system more intuitive. I learned how vital user empathy and tone are when designing AI-powered tools that students can actually trust and rely on.",
         connection: (
@@ -108,8 +108,23 @@ const reflections = [
         ),
         challenges: "Balancing personalization with simplicity was tough — I wanted the chatbot to sound human but still stay accurate and structured. Getting the prompts and layout to feel natural took multiple iterations.",
         aiTool: "I used Gemini to visualize the chatbot interface and generate tone variations, and Bolt.new to rapidly prototype and refine the UI based on feedback."
+  }
+    
+    },
+    {
+      week: 9,
+      data: {
+        learning: "This week I spent time refining the overall project experience and reflecting on how every design choice — from layout spacing to tone of text — affects user perception. I learned how subtle changes in color balance, hierarchy, or even button phrasing can guide users toward a smoother experience. Beyond technical adjustments, I also deepened my understanding of iteration as a mindset rather than just a process. Each round of feedback revealed new ways to simplify, clarify, or humanize the interface. It reminded me that good design isn’t just about what looks polished — it’s about how seamlessly it helps people reach their goals.",
+        connection: (
+          <>
+            I found myself connecting this work to my own experiences as a student trying to navigate confusing systems or tools. Every time I got frustrated with unclear instructions or clunky interfaces, I started analyzing why — and how a better design could’ve made that experience less stressful. That awareness made this week’s reflection more personal. It’s interesting to realize that the same principles we’re learning in class — empathy, iteration, and clarity — apply to real-world systems that we interact with every day. Seeing that connection between my personal life and my project work has made me appreciate how thoughtful design can genuinely reduce frustration and increase confidence for users like me.
+          </>
+        ),
+        challenges: "One of the biggest challenges this week was managing multiple layers of feedback while still keeping a consistent vision. It’s easy to get caught up trying to incorporate every suggestion, but I had to learn how to filter feedback strategically — taking what strengthened the user experience without losing the project’s core identity. Another challenge was pacing myself through revisions. There were moments where I kept tweaking small visual details, only to realize I was drifting away from testing usability. Finding that balance between aesthetics and practicality was a key takeaway from this week.",
+        aiTool: "I used ChatGPT and Figma’s AI assistant throughout the week to generate new design variations and rewrite microcopy that better matched the tone of the project. ChatGPT helped me brainstorm how to phrase prompts in a friendlier and more supportive way, while Figma’s AI features made it faster to experiment with layout adjustments. I also tried using Notion AI to organize notes and reflections, which helped me synthesize feedback from different sources and plan next steps more efficiently."
       }
     }
+    
   
   
   

@@ -123,10 +123,37 @@ const reflections = [
         challenges: "One of the biggest challenges this week was managing multiple layers of feedback while still keeping a consistent vision. It’s easy to get caught up trying to incorporate every suggestion, but I had to learn how to filter feedback strategically — taking what strengthened the user experience without losing the project’s core identity. Another challenge was pacing myself through revisions. There were moments where I kept tweaking small visual details, only to realize I was drifting away from testing usability. Finding that balance between aesthetics and practicality was a key takeaway from this week.",
         aiTool: "I used ChatGPT and Figma’s AI assistant throughout the week to generate new design variations and rewrite microcopy that better matched the tone of the project. ChatGPT helped me brainstorm how to phrase prompts in a friendlier and more supportive way, while Figma’s AI features made it faster to experiment with layout adjustments. I also tried using Notion AI to organize notes and reflections, which helped me synthesize feedback from different sources and plan next steps more efficiently."
       }
+  
+    },
+    {
+      week: 10,
+      data: {
+        learning: "This week I focused on building the foundation for the Bureaucracy Buddy MVP. I learned that setting up the project repo, React/Tailwind environment, and Express backend early helps catch integration issues faster and provides a stable base for future features. Connecting the backend to the OpenAI API and scaffolding the chat interface reinforced how early infrastructure decisions affect the speed and reliability of subsequent development. I also realized that simplifying UI ambitions during setup is important to keep the project manageable and on schedule.",
+        connection: (
+          <>
+            Working on the project setup made me think about times I have used tools with poor integration or confusing workflows. Whenever I experienced mismatched behavior or complex setup steps in real software, it reminded me how frustrating that can be. That connection helped me appreciate why early, careful system design is crucial: it reduces user frustration and makes future iterations smoother, which ties directly into principles of empathy and clarity we emphasize in design work.
+          </>
+        ),
+        challenges: "Managing environment variables and ensuring smooth communication between the backend and React frontend required careful debugging. Tailwind configuration needed some fixes before styling worked correctly. Another challenge was limiting UI complexity to stay within the week’s time budget, which required intentional simplification and prioritization.",
+        aiTool: "I used ChatGPT and OpenAI tools to test API integration and brainstorm initial chatbot prompt templates. Figma AI assisted with UI mockups for the chat and stepper interfaces. Notion AI helped me organize development notes, track tasks, and synthesize debugging insights efficiently."
+      }
+    },
+    
+    {
+      week: 11,
+      data: {
+        learning: "Sprint 1 focused on building the core AI system and foundational workflow templates. I learned that a stable end-to-end pipeline — from React UI to Express backend to OpenAI responses — allows for faster iteration and testing. Implementing structured workflow templates taught me how to balance flexibility with guided AI responses, and the separation between templates, prompts, and UI logic clarified system modularity. I also realized that early attention to backend/frontend stability pays off when adding complex features later.",
+        connection: (
+          <>
+            Working on chatbot workflows reminded me of navigating bureaucratic processes like school forms or housing requests. Seeing the AI handle structured steps made me reflect on how thoughtful design can reduce stress and confusion for users, emphasizing the real-world impact of careful system planning.
+          </>
+        ),
+        challenges: "Designing prompts that were flexible yet structured took multiple iterations. The stepper UI needed restructuring to avoid unnecessary complexity, and deciding which tasks belong in templates versus AI reasoning required careful thought. Maintaining stability in the end-to-end pipeline while iterating on both backend and UI was also a consistent challenge.",
+        aiTool: "I relied on ChatGPT for testing prompt designs and generating workflow templates, which helped refine AI responses efficiently. Figma AI assisted with UI adjustments for the chat interface and stepper. Notion AI helped organize template logic, document API issues, and prioritize feature development for the next sprint."
+      }
     }
     
-  
-  
+
   
 ];
 

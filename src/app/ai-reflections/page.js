@@ -151,9 +151,22 @@ const reflections = [
         challenges: "Designing prompts that were flexible yet structured took multiple iterations. The stepper UI needed restructuring to avoid unnecessary complexity, and deciding which tasks belong in templates versus AI reasoning required careful thought. Maintaining stability in the end-to-end pipeline while iterating on both backend and UI was also a consistent challenge.",
         aiTool: "I relied on ChatGPT for testing prompt designs and generating workflow templates, which helped refine AI responses efficiently. Figma AI assisted with UI adjustments for the chat interface and stepper. Notion AI helped organize template logic, document API issues, and prioritize feature development for the next sprint."
       }
+    },
+  
+    {
+      week: 12,
+      data: {
+        learning: "Sprint 2 focused on improving reliability and clarity by adding form explanations and an offline FAQ fallback system. I learned how challenging it is to take complex, bureaucratic language and convert it into simple, accessible explanations for students. Refining the natural-language explanation prompts taught me how to constrain AI outputs effectively. Building the offline FAQ system also showed me the importance of anticipating failures—timeouts, rate limits, and missing API keys—and designing the app so it remains useful even without AI access.",
+        connection: (
+          <>
+            Working on form explanation and FAQs reminded me of how confusing university paperwork can be. Building these features made me think about how many students feel lost when reading official forms or navigating holds and deadlines. The process reinforced why a tool like Bureaucracy Buddy matters: thoughtful design and clear communication genuinely reduce user stress and uncertainty.
+          </>
+        ),
+        challenges: "Prompt design for form explanations was harder than expected; early drafts were too formal or technical, and simplifying them took multiple revisions. Implementing a reliable API failure detector required handling more edge cases than I anticipated, especially around timeouts and rate limit errors. Writing concise, helpful FAQ entries also proved challenging—it took several rewrites to make the information clear for non-experts.",
+        aiTool: "I used ChatGPT extensively to refine prompt patterns for form explanations and to rewrite FAQ entries in clearer language. Figma AI helped adjust the FAQ UI and navigation flow. Notion AI supported organizing offline fallback logic, documenting error cases, and planning features for Sprint 3 such as local workflow saving and optional Firebase Auth."
+      }
     }
     
-
   
 ];
 

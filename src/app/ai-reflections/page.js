@@ -165,7 +165,21 @@ const reflections = [
         challenges: "Prompt design for form explanations was harder than expected; early drafts were too formal or technical, and simplifying them took multiple revisions. Implementing a reliable API failure detector required handling more edge cases than I anticipated, especially around timeouts and rate limit errors. Writing concise, helpful FAQ entries also proved challenging—it took several rewrites to make the information clear for non-experts.",
         aiTool: "I used ChatGPT extensively to refine prompt patterns for form explanations and to rewrite FAQ entries in clearer language. Figma AI helped adjust the FAQ UI and navigation flow. Notion AI supported organizing offline fallback logic, documenting error cases, and planning features for Sprint 3 such as local workflow saving and optional Firebase Auth."
       }
+    },
+    {
+      "week": 13,
+      "data": {
+        "learning": "This week focused on finalizing AI integration for form explanations and FAQs in Bureaucracy Buddy. I learned how to make AI-generated content reliable and student-friendly, especially under edge cases like API failures or unclear prompts. Testing with a real student helped identify confusing wording and navigation issues, which I then refined. I also explored fallback strategies for offline use, ensuring the app remains helpful even when AI responses are slow or unavailable.",
+        "connection": (
+          <>
+            Working with real users reinforced how overwhelming bureaucratic processes can be for students. Simplifying form instructions and providing a clear FAQ flow made me realize the value of AI as a bridge between complex university systems and everyday student understanding. Seeing users successfully complete tasks without frustration highlighted the impact thoughtful UX and AI guidance can have on reducing stress.
+          </>
+        ),
+        "challenges": "Ensuring AI explanations were consistently clear and concise was difficult. Early prompts produced overly technical responses, requiring multiple revisions. Handling offline fallback logic and rate-limiting errors added complexity. Additionally, designing the FAQ system to anticipate students’ common questions took several iterations of testing and refinement.",
+        "aiTool": "I used ChatGPT extensively for rewriting form instructions in simple language and generating FAQ content. Figma AI helped improve the FAQ interface and workflow clarity. Notion AI was used for planning offline fallback features, documenting edge cases, and organizing prompts for consistent AI output."
+      }
     }
+    
     
   
 ];

@@ -178,6 +178,21 @@ const reflections = [
         "challenges": "Ensuring AI explanations were consistently clear and concise was difficult. Early prompts produced overly technical responses, requiring multiple revisions. Handling offline fallback logic and rate-limiting errors added complexity. Additionally, designing the FAQ system to anticipate students’ common questions took several iterations of testing and refinement.",
         "aiTool": "I used ChatGPT extensively for rewriting form instructions in simple language and generating FAQ content. Figma AI helped improve the FAQ interface and workflow clarity. Notion AI was used for planning offline fallback features, documenting edge cases, and organizing prompts for consistent AI output."
       }
+    },
+    {
+      "week": 14,
+      "data": {
+        "learning": "This week focused on creating a playful, welcoming experience across every page while keeping the design system consistent and scalable.",
+        "connection": (
+          <>
+
+          The redesign introduces a fully playful pastel experience across the site: the Hero Page now features a pastel gradient background with soft floating blobs, Fredoka One and Baloo 2 typography, a cartoon mascot, whimsical doodles, and rounded CTAs with smooth hover animations. The AI Chat Page uses soft pastel chat bubbles, a bouncing emoji typing indicator, a cute paper-plane send button, floating stars and checkmarks, and subtle slide-in animations to create an engaging feel. The Workflows Page includes pastel workflow cards, emoji step indicators, mascot illustrations, and hover scale-and-shadow effects with doodles throughout. The FAQ Page now has rounded pastel accordion cards with a rotating color palette, micro-animations like flying papers and stars, and smooth expand/collapse transitions. Finally, the Form Field Explainer Page features interactive pastel input boxes, speech-bubble tooltips, “Explain This!” buttons, mascot thumbs-up graphics, and gentle slide-down animations, tying together the entire playful aesthetic.
+
+          </>
+        ),
+        "challenges": " How powerful micro-animations are for creating an emotional tone, Importance of a tightly unified color + typography system, Balancing playful visuals with clean usability, Designing with scalability in mind (components reusable across pages), Creating mascot-driven branding that feels alive",
+        "aiTool": "Cursor + ChatGPT"
+      }
     }
     
     
